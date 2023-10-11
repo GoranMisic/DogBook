@@ -1,0 +1,48 @@
+{
+  "dogs": [
+    {
+      "name": "Lala",
+      "picture": "https://images.dog.ceo/breeds/chihuahua/n02085620_2650.jpg",
+      "nickname": "",
+      "age": "4",
+      "bio": "",
+      "friends": [],
+      "presence": true,
+      "id": 8
+    },
+    {
+      "name": "Goran 2",
+      "nickname": "",
+      "picture": "https://images.dog.ceo/breeds/germanshepherd/n02106662_10122.jpg",
+      "age": "",
+      "bio": "",
+      "friends": [],
+      "presence": false,
+      "id": 13
+    },
+    {
+      "name": "Madeleine 2",
+      "nickname": "",
+      "picture": "https://images.dog.ceo/breeds/mastiff-tibetan/n02108551_6295.jpg",
+      "age": "6",
+      "bio": "",
+      "friends": [
+        15
+      ],
+      "presence": true,
+      "id": 14
+    },
+    {
+      "name": "Ema",
+      "nickname": "emily",
+      "picture": "https://images.dog.ceo/breeds/borzoi/n02090622_9814.jpg",
+      "age": "6",
+      "bio": "dangerous",
+      "friends": [
+        14
+      ],
+      "presence": true,
+      "id": 15
+    }
+  ]
+}

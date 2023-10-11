@@ -1,0 +1,154 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  color-scheme: light;
+  color: #333;
+  background-color: #f6f6f6;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 50px;
+}
+
+.pageTitle {
+  margin-left: 250px;
+  font-size: 40px;
+  font-weight: 900;
+}
+
+body {
+  margin: 0;
+  margin-bottom: 60px;
+  display: flex;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+a {
+  font-weight: 500;
+  color: #007bff; /* Bright blue */
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: #0056b3; /* Darker blue on hover */
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button,
+input,
+select {
+  border-radius: 8px;
+  border: 1px solid #ccc; /* Subtle border */
+  padding: 0.6em 1.2em;
+  margin: 0.3em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #ffffff; /* White background for inputs */
+  transition: border-color 0.25s, box-shadow 0.25s;
+  cursor: pointer;
+}
+
+button:hover,
+input:hover,
+select:hover {
+  border-color: #007bff; /* Bright blue on hover */
+  box-shadow: 0px 0px 8px rgba(0, 123, 255, 0.25); /* Soft glow */
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+img,
+.doglist_img_homepage {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.doglist {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-evenly;
+  margin: 2em;
+}
+
+.dogname_link_true,
+.dogname_link_false {
+  padding: 0.3em;
+  margin: 0;
+  font-size: 20px;
+}
+
+.dogname_link_true {
+  color: #1cc92b;
+}
+
+.dogname_link_false {
+  color: #dc3545; /* Red */
+}
+
+.dogname_link_false:hover,
+.dogname_link_true:hover {
+  color: #007bff; /* Bright blue on hover */
+  cursor: pointer;
+}
+
+.deletebutton {
+  font-size: 18px;
+  border-radius: 0.2em;
+  padding: 0.2em;
+  margin-top: 0.2em;
+  margin-left: 1em;
+  background-color: #fafafa;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.25s;
+  height: 50px;
+  width: fit-content;
+  border-radius: 5px;
+}
+
+.deletebutton:hover {
+  background-color: #aca4a5; /* Darker red on hover */
+}
+
+.presence_checkbox {
+  scale: 1.5;
+  margin-top: 0.2em;
+}
+
+.doglist_img_homepage {
+  width: 150px;
+  height: 150px;
+}
+
+.input-createDog {
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+}
